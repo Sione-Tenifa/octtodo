@@ -34,6 +34,7 @@ form.addEventListener("submit", function(e){
     todos.appendChild(todo)
     todo.appendChild(remove)
     form.reset()
+    localStorage.setItem("todo", todo)
 
 } )
 
